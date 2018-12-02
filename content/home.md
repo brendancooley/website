@@ -5,9 +5,6 @@ draft : false
 
 ---
 
-testing 2.0
-and 3.0 
-
 {{% summary %}}
 
 <img class="prof-pic" src="img/bc.jpg">
