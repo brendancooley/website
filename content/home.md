@@ -5,7 +5,7 @@ draft : false
 
 ---
 
-testing new things
+testing 2.0 
 
 {{% summary %}}
 
