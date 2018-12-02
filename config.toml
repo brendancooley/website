@@ -21,3 +21,5 @@ description = "Ph.D. Candidate | Department of Politics | Princeton University"
 
 [taxonomies]
 tags = "tags"
+
+# git submodule add -b master git@github.com:brendancooley/brendancooley.github.io.git public
