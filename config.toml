@@ -3,7 +3,8 @@
 languageCode = "en-us"
 title = "Brendan Cooley"
 theme = "crab"
-baseurl = "http://brendancooley.com"
+baseurl = "http://brendancooley.github.io/"
+googleAnalytics = "UA-104122838-1"
 # publishDir = "docs"
 
 [params]
