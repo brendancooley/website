@@ -10,3 +10,6 @@ min_version = 0.18
 [author]
 name = "Thomas Heller"
 homepage = "https://github.com/thomasheller"
+
+[Expand-title]
+other = "Expand me..."

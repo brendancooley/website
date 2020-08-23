@@ -3,8 +3,21 @@
   <head>
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/cooley.css">
+
+    <!--load fontawesome-->    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!--load jquery-->    
+    <script src="{{ .Site.BaseURL }}js/jquery-3.3.1.min.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
     {{ .Hugo.Generator }}
+
+    <script>
+      function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+      }
+    </script>
 
     <!-- {{ if isset .Site.Params "mathjax"}}
     <script type="text/javascript" src="{{ .Site.Params.mathjax }}">

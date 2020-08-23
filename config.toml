@@ -20,6 +20,7 @@ description = "Ph.D. Candidate | Department of Politics | Princeton University"
 
 [permalinks]
 # notes = "/notes/"
+# other = "/other/"
 
 [taxonomies]
 tags = "tags"
